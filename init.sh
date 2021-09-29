@@ -23,3 +23,6 @@ sudo a2enmod rewrite
 sudo snap install core; sudo snap refresh core
 sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+# install mysql-client
+sudo apt-get install mysql-client
